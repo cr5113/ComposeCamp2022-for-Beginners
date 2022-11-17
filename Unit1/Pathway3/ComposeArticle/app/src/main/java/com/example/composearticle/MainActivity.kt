@@ -49,13 +49,12 @@ private fun ArticleCard(
             modifier = Modifier
                 .fillMaxWidth(),
             contentScale = ContentScale.FillWidth
-
         )
         Text(
             text = title,
             fontSize = 24.sp,
             modifier = Modifier
-                .padding(start = 16.dp, end = 16.dp, top = 16.dp, bottom = 16.dp)
+                .padding(16.dp)
         )
         Text(
             text = shortDescription,
@@ -66,7 +65,7 @@ private fun ArticleCard(
         Text(
             text = longDescription,
             modifier = Modifier
-                .padding(start = 16.dp, end = 16.dp, top = 16.dp, bottom = 16.dp),
+                .padding(16.dp),
             textAlign = TextAlign.Justify
         )
     }
